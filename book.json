@@ -1,0 +1,38 @@
+{
+  "title": "数据交易所",
+  "description": "交易所描述文档",
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "all": false
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "anchors",
+    "editlink",
+    "git-author",
+    "expandable-chapters",
+    "advanced-emoji"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "editlink": {
+      "label": "编辑此页",
+      "base": "https://github.com/wangzehui123456/wangzehui123456.github.io.git/edit/master"
+    },
+    "git-author": {
+      "modifyTpl": "最后修改: {user} {timeStamp}",
+      "createTpl": "创建: {user} {timeStamp}",
+      "timeStampFormat": "YYYY/MM/DD HH:mm"
+    }
+  }
+}
